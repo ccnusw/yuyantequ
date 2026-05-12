@@ -139,7 +139,7 @@ STRUCTURES = ["述宾结构", "述补结构", "状中结构", "连谓结构"]
 ALL_SUPERNORMAL_TYPES = ["所有"] + WORD_CLASSES + STRUCTURES
 TEXT_TYPES = ["所有类型", "网络语言", "诗歌特区", "标题口号"]
 
-EXCEL_PATH = Path(__file__).parent / "语料库汇总【共13103条】【20260512】.xlsx"
+EXCEL_PATH = Path(__file__).parent / "语料库汇总【共13103条】.xlsx"
 
 @st.cache_data
 def load_data():
